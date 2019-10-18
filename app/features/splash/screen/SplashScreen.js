@@ -19,7 +19,7 @@ export default class SplashScreen extends Component {
 	
       <View style={styles.container}>
 		<View style={styles.container}>
-			<Image style={styles.image} resizeMode='contain' source={require('../../../../images/logo.png')}></Image>
+			<Image style={styles.image} resizeMode='contain' source={require('../../../images/logo.png')}></Image>
 		</View>
         <Text> www.HoNguyen.vn</Text>
         <Text>Version : 0.0.01 </Text>
